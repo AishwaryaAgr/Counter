@@ -1,0 +1,43 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-image: radial-gradient(rgb(209, 174, 174), yellow);
+}
+.counter-box{
+    flex: 0 0 50%;
+    text-align: center;
+    background-color: white;
+    /* margin: 2rem; */
+    padding: 1rem;
+    opacity: 0.8;
+    text-transform: capitalize;
+}
+.counter{
+    font-size: 6rem;
+}
+.btn{
+    background-color: gold;
+    font-size: 2rem;
+    border-radius: 5px;
+    border: black;
+    outline: none;
+    padding: 0.5 rem;
+    margin: 0.5 0.25;
+    box-shadow: 2px 2px 2px grey;
+    transition: 0.5s;
+}
+.btn:hover{
+background: aquamarine;
+color: grey;
+transition: 0.3s;
+}
+.btn:active{
+    position: relative;
+    top: 1px;
+    left: 1px;
+    box-shadow: 1px 1px 2px grey;
+    transition: 0.5s;
+}
